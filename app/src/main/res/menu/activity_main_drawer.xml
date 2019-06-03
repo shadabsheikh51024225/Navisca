@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeblack"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_diagnose"
+            android:icon="@drawable/icon_menu_diagnostic"
+            android:title="Diagnostic" />
+        <item
+            android:id="@+id/nav_TroubleCodes"
+            android:icon="@drawable/icon_menu_cloud"
+            android:title="Trouble Codes" />
+        <item
+            android:id="@+id/nav_reading"
+            android:icon="@drawable/icon_menu_readings"
+            android:title="Reading" />
+        <item
+            android:id="@+id/nav_connection"
+            android:icon="@drawable/icon_menu_connection"
+            android:title="Connection" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/icon_menu_settings"
+            android:title="Setting" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/icon_menu_settings"
+                android:title="Register" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/icon_menu_help"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>

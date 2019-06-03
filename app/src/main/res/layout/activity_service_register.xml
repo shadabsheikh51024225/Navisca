@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shadabsheikh.pain_tracker.ServiceRegister"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:title="Registration">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="VEHICHLE INFORMATION"
+                android:textColor="#0686EF"/>
+
+
+            <EditText
+                android:id="@+id/vin_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="VIN#"
+                android:inputType="textPersonName"
+                android:shadowColor="@color/grayDark" />
+
+
+            <EditText
+                android:id="@+id/make_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="MAKE"
+                android:inputType="textPersonName"
+                android:shadowColor="@color/grayDark" />
+
+            <EditText
+                android:id="@+id/model_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="MODEL"
+                android:inputType="textPersonName"
+                android:shadowColor="@color/grayDark" />
+
+
+            <EditText
+                android:id="@+id/year_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="YEAR"
+                android:inputType="textPersonName"
+                android:shadowColor="@color/grayDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="OWNER INFORMATION"
+                android:textStyle="bold"
+                android:textColor="#0686EF"/>
+
+
+            <EditText
+                android:id="@+id/name_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="NAME"
+                android:inputType="textPersonName"
+                android:shadowColor="@color/grayDark" />
+
+            <EditText
+                android:id="@+id/email_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="E-mail"
+                android:privateImeOptions="Email"
+                android:inputType="textEmailAddress"
+                android:shadowColor="@color/grayDark" />
+
+            <EditText
+                android:id="@+id/tel_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Tel."
+                android:inputType="phone"
+                android:shadowColor="@color/grayDark"
+                />
+
+
+            <EditText
+                android:id="@+id/pas_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:shadowColor="@color/grayDark" />
+
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Register"
+                android:background="@color/colorPrimary"
+                android:textColor="#0686EF"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "474944899976",
+    "firebase_url": "https://paintracker-aead4.firebaseio.com",
+    "project_id": "paintracker-aead4",
+    "storage_bucket": "paintracker-aead4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474944899976:android:5eae3572c9b3f465",
+        "android_client_info": {
+          "package_name": "com.example.shadabsheikh.pain_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474944899976-lol348goph6o13qkbbrfb0bdrn9ijfk4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shadabsheikh.pain_tracker",
+            "certificate_hash": "d5b41b2893745c86d9c394122793df306841326b"
+          }
+        },
+        {
+          "client_id": "474944899976-utifrg9u0ial62hiogmhlqkma8s4bf77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBni2zpJIkrnxj5EnKLPLz0pPPtmHjUzEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474944899976-utifrg9u0ial62hiogmhlqkma8s4bf77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
